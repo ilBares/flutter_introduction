@@ -20,4 +20,12 @@ Tra i Widget più importanti troviamo:
   > Tra gli attributi principali della MaterialApp troviamo:
   > 1. __title__ -> è solo una descrizione usata dal SDK per identificare l'app
   > 2. __Theme__ -> determina gli aspetti visivi della nostra applicazione (font, colori, ...)
-- il Widget __Scaffold__ fornisce la struttura di base dell'applicazione.  
+  
+- il Widget __Scaffold__ fornisce la struttura di base dell'applicazione  
+  > Tra gli attributi principali dello Scaffold troviamo:
+  > 1. __AppBar__ -> Widget usato per creare una barra "in alto" con il titolo dell'app
+  > 2. __body__ -> rappresenta il "corpo" dello scaffold, anch'esso rappresentato da un Widget
+    
+- il Widget __Text__ consente di creare un testo  
+
+- il Widget __ListView__ consente di creare una lista di Widget (ad esempio di Card)  
