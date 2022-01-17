@@ -7,10 +7,10 @@ Introduzione al SDK Flutter.
 In Flutter ogni elemento che compone l'interfaccia grafica è un Widget.  
 Esistono due tipi di Widget:  
 ->  __StatelessWidget__: (*letteralmente "Widget senza stato"*)  
-    Sono Stateless tutti i Widget che non cambiano dopo essere stati "buildati"  
+> Sono Stateless tutti i Widget che non cambiano dopo essere stati "buildati"  
 
 ->  __StatefulWidget__: (*letteralmente "Widget con stato"*)  
-    Sono Stateful tutti i Widget che possono cambiare dopo essere stati "buildati"  
+> Sono Stateful tutti i Widget che possono cambiare dopo essere stati "buildati"  
 
 Il metodo fondamentale alla base della costruzione dei Widget è:
 - il metodo __build()__ consiste nel creare un nuovo Widget, composto dai Widget indicati nel return
