@@ -1,22 +1,24 @@
-# Introduzione a flutter
+# Flutter Introduction
 
-Introduzione al SDK Flutter.
+SDK Flutter Introduction.
 
 ## Getting Started
 
-In Flutter ogni elemento che compone l'interfaccia grafica è un Widget.  
-Esistono due tipi di Widget:  
-->  __StatelessWidget__: (*letteralmente "Widget senza stato"*)  
-> Sono Stateless tutti i Widget che non cambiano dopo essere stati "buildati"  
+In Flutter almost everything that makes up the user interface is a Widget.  
+There are two main types of Widget:  
+->  __StatelessWidget__: (*"Widget without state"*)  
+> a Stateless Widget doesn't change after you build it  
 
-->  __StatefulWidget__: (*letteralmente "Widget con stato"*)  
-> Sono Stateful tutti i Widget che possono cambiare dopo essere stati "buildati"  
+->  __StatefulWidget__: (*"Widget with state"*)  
+> a Stateful widget change his state during the lifetime of the Widget  
 
-Il metodo fondamentale alla base della costruzione dei Widget è:
-- il metodo __build()__ consiste nel creare un nuovo Widget, composto dai Widget indicati nel return
+__main()__ is the entry point for the code when the app launched.  
+__runApp()__ method (contained in the main) tells Flutter which is the top-level widget for the app.  
 
-Tra i Widget più importanti troviamo:
-- il Widget __MaterialApp__ identifica il corpo dell'applicazione (contiene tutti gli altri)  
+- a Widget's __build()__ method is the entry point for composing together other widgets.
+
+Most important widgets:  
+- __MaterialApp__ is the predefined widget in Flutter  
   > Tra gli attributi principali della MaterialApp troviamo:
   > 1. __title__ -> è solo una descrizione usata dal SDK per identificare l'app
   > 2. __Theme__ -> determina gli aspetti visivi della nostra applicazione (font, colori, ...)

@@ -7,35 +7,84 @@ class IntroductionApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "IntroductionApp",
+      title: 'Title',
       home: Scaffold(
         appBar: AppBar(
-          title: Text("\"title\" dell'applicazione"),
-        ),
-        body: Column(
-          crossAxisAlignment: CrossAxisAlignment.center,
-          mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Center(
-                child: Text(
-                  "\"Body\" dell'applicazione",
-                  style: TextStyle(
-                    fontSize: 20,
-                    fontWeight: FontWeight.bold,
-                    color: Colors.black,
-                  ),
-                )
+          backgroundColor: Colors.white38,
+          title: Align(
+            alignment: Alignment.centerRight,
+            child: Text(
+              'TITLE',
+              style: TextStyle(
+                color: Colors.blueAccent,
+                fontSize: 35,
+                fontWeight: FontWeight.bold,
               ),
-              Text(
-                "Secondo \"Text\" della \"Column\"",
-                style: TextStyle(
-                  fontSize: 15,
-                  fontWeight: FontWeight.normal,
-                  color: Colors.black38,
-                ),
-              ),
-            ],
+            ),
           ),
+        ),
+        body: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: [
+            Column(
+              crossAxisAlignment: CrossAxisAlignment.end,
+              mainAxisAlignment: MainAxisAlignment.end,
+              children: <Widget>[
+                Text(
+                  'Sono nel Body',
+                  style: TextStyle(
+                    color: Colors.blue,
+                    fontSize: 25,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                Text(
+                  'Sono il secondo Text',
+                  style: TextStyle(
+                    color: Colors.black38,
+                    fontSize: 20,
+                    fontStyle: FontStyle.italic,
+                  ),
+                ),
+                Text(
+                  'Sono il terzo Text',
+                  style: TextStyle(
+                    color: Colors.grey,
+                    fontSize: 15,
+                  ),
+                ),
+              ],
+            ),
+            Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: <Widget>[
+                Text(
+                  'Sono nel Body',
+                  style: TextStyle(
+                    color: Colors.blue,
+                    fontSize: 25,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                Text(
+                  'Sono il secondo Text',
+                  style: TextStyle(
+                    color: Colors.black38,
+                    fontSize: 20,
+                    fontStyle: FontStyle.italic,
+                  ),
+                ),
+                Text(
+                  'Sono il terzo Text',
+                  style: TextStyle(
+                    color: Colors.grey,
+                    fontSize: 15,
+                  ),
+                ),
+              ],
+            ),
+          ],
+        ),
       ),
     );
   }
