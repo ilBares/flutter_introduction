@@ -1,72 +1,5 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(CarsApp());
-
-class CarsApp extends StatelessWidget {
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Cars App',
-      home: Scaffold(
-        body: SafeArea(
-          child: ListView.builder(
-            // 15 items, per ogni item invoca itemBuilder
-            itemCount: 15,
-            itemBuilder: (context, index) {
-              return _buildItem(index);
-            }
-          ),
-        ),
-      ),
-    );
-  }
-
-  Widget _buildItem(index) {
-    return ListTile(
-      leading: Icon(Icons.book),
-      title: Text(
-        'Title $index',
-        style: TextStyle(
-          fontSize: 30,
-        ),
-      ),
-      subtitle: Text(
-        'Subtitle $index',
-        style: TextStyle(
-          fontSize: 20,
-        ),
-      ),
-    );
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-import 'package:flutter/material.dart';
-
 void main() => runApp(IntroductionApp());
 
 class IntroductionApp extends StatelessWidget {
@@ -90,7 +23,8 @@ class IntroductionApp extends StatelessWidget {
             ),
           ),
         ),
-        body: MyListView(),
+        // a body potremmo anche assegnare MyListView()
+        body: MyBody(),
       ),
     );
   }
@@ -189,4 +123,3 @@ class MyListView extends StatelessWidget {
   }
 
 }
- */
