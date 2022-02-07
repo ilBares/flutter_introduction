@@ -28,16 +28,24 @@ Most important widgets:
 - __MaterialApp__ is the predefined widget in Flutter  
   > Among the most important attributes of Material there are:
   > 1. __title__ -> description that devices uses to identify the app - the UI won't dispay this.
-  > 2. __Theme__ -> determines visual aspects like colors and fonts.
+  > 2. __theme__ -> determines visual aspects like colors and fonts.
   
 - __Scaffold__ widget provides the high-leve structure for a screen.  
   > Among the most important attributes of Scaffold there are:
-  > 1. __AppBar__ -> Widget usato per creare una barra "in alto" con il titolo dell'app ||||||||||||
-  > 2. __body__ -> rappresenta il "corpo" dello scaffold, anch'esso rappresentato da un Widget |||||
+  > 1. __AppBar__ -> gets a title property by using a Text widget.
+  > 2. __body__
 
+- __Text__ ...
 - __SafeArea__ ...
 - __Image__ ...
+- __ListView__ ...
+- __SizedBox__ black view with a fixed size.
+- __Card__ Widget defines an area of UI where you've laid out related information about a specific 
+  entity.
+  > Among the most important attributes of Scaffold there are:
+  > 1. __elevation__ -> determines how high off the screen the cars is (shadow changes).
+  > 2. __shape__ -> handles the shape of the card.
+  
+  > data model -> refers to classes - such as Car or Student
 
-- il Widget __Text__ consente di creare un testo  
 
-- il Widget __ListView__ consente di creare una lista di Widget (ad esempio di Card)  
