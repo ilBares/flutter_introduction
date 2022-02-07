@@ -24,7 +24,7 @@ class IntroductionApp extends StatelessWidget {
           ),
         ),
         // a body potremmo anche assegnare MyListView()
-        body: MyBody(),
+        body: MyListView(),
       ),
     );
   }
@@ -115,9 +115,20 @@ class MyListView extends StatelessWidget {
   Widget buildCard(String text) {
     return Card(
       margin: EdgeInsets.symmetric(vertical: 5, horizontal: 10),
-      child: Padding(
-        padding: const EdgeInsets.symmetric(vertical: 50, horizontal: 10),
-        child: Text(text),
+      child: Container(
+        padding: EdgeInsets.all(2.0),
+        child: Row(
+          children: [
+            Expanded(
+              child:Image.asset("assets/minny.jpeg"),
+              flex: 3,
+            ),
+            Expanded(
+              child: Center(child: Text(text)),
+              flex: 1,
+            ),
+          ],
+        ),
       ),
     );
   }
