@@ -4,6 +4,13 @@ SDK Flutter Introduction.
 
 ## Getting Started
 
+Flutter is a software development toolkit (SDK) from Google for building cross-platform apps.  
+Flutter is _not_ a language -> Flutter uses *Dart* as its programming language (object-oriented).  
+Flutter's widgets exist parallel to native widgets due to its customer user interface rendering
+engine - *Skia* - ensuring native performance.  
+*IDE* (Integrated Development Environment): XCode for iOS and Android Studio for Android.  
+
+
 In Flutter almost everything that makes up the user interface is a Widget.  
 There are two main types of Widget:  
 ->  __StatelessWidget__: (*"Widget without state"*)  
