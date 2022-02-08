@@ -1,13 +1,22 @@
+// required to use "standard" Widget (MaterialApp, Scaffold, Text, ...)
 import 'package:flutter/material.dart';
 
+// required to launch the App
 void main() => runApp(IntroductionApp());
 
+// Widget that contains every widget of My App
 class IntroductionApp extends StatelessWidget {
 
+  // required to "build" my application - entry point for composing together
+  // other widgets to make a new widget
   @override
   Widget build(BuildContext context) {
+
+    // predefined Widget in Flutter
     return MaterialApp(
       title: 'Title',
+
+      // Scaffold provides the high-leve structure for a screen (such as colors)
       home: Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.white38,
@@ -23,13 +32,14 @@ class IntroductionApp extends StatelessWidget {
             ),
           ),
         ),
-        // a body potremmo anche assegnare MyListView()
+        //
         body: MyListView(),
       ),
     );
   }
 }
 
+// custom Widget not used - usable instead of "MyListView()" - row 34
 class MyBody extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -99,6 +109,7 @@ class MyBody extends StatelessWidget {
 
 }
 
+// custom Widget used as body of Scaffold - row 34
 class MyListView extends StatelessWidget {
   final _itemCount = 15;
 
