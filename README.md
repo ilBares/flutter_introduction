@@ -55,6 +55,7 @@ Most important widgets:
   > 1. __elevation__ -> determines how high off the screen the cars is (shadow changes).
   > 2. __shape__ -> handles the shape of the card.
   
-  > data model -> refers to classes - such as Car or Student
+
+> data model -> refers to classes - such as Car or Student
 
 
