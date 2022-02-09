@@ -28,13 +28,14 @@ There are two main types of Widget:
 > a Stateful widget change his state during the lifetime of the Widget.  
 
 __main()__ is the entry point for the code when the app launches.  
-__runApp()__ main method that tells Flutter which is the top-level widget for the app.  
+__runApp()__ main method that tells Flutter which is the top-level widget for the app (everything in
+Flutter start with a widget -> runApp() takes the root Widget).  
 
 - a Widget's __build()__ method is the entry point for composing together other widgets to make a
-  new widget.
+  new widget. Every StatelessWidget must override build() method.
 
 *Stateless Widgets*:  
-- __MaterialApp__ is the predefined widget in Flutter  
+- __MaterialApp__ is the predefined widget in Flutter (give a Material Design system look and feel)  
   > Among the most important attributes of Material there are:
   > 1. __title__ -> description that devices uses to identify the app - the UI won't display this.
   > 2. __theme__ -> determines visual aspects like colors and fonts.
