@@ -35,6 +35,14 @@ Flutter start with a widget -> runApp() takes the root Widget).
   new widget. Every StatelessWidget must override build() method.
 
 *Stateless Widgets*:  
+- *Layout Widgets* -> help with the arrangement of widgets. Examples:  
+> - Column
+> - Row
+> - Stack
+> - Container
+> - SizedBox
+> - Padding
+  
 - __MaterialApp__ is the predefined widget in Flutter (give a Material Design system look and feel)  
   > Among the most important attributes of Material there are:
   > 1. __title__ -> description that devices uses to identify the app - the UI won't display this.
@@ -42,8 +50,11 @@ Flutter start with a widget -> runApp() takes the root Widget).
   
 - __Scaffold__ widget provides the high-leve structure for a screen.  
   > Among the most important attributes of Scaffold there are:
-  > 1. __AppBar__ -> gets a title property by using a Text widget.
+  > 1. __appBar__ -> gets a title property by using a Text widget.
   > 2. __body__
+  > 3. __bottomNavigationBar__
+  > 4. __floatingActionButton__
+  > 5. __snackBar__
 
 - __Text__ ...
 - __SafeArea__ keeps the app from getting too close to the operating system interfaces (notch, ...)
@@ -67,6 +78,16 @@ Flutter start with a widget -> runApp() takes the root Widget).
 - __GestureDetector__ detects gestures (_onTap()_, ...)
   > GestureDetector's child widget defines the area where the gesture is active.
 
-> data model -> refers to classes - such as Car or Student
+> data model -> refers to classes - such as Car or Student  
+
+> as you build large-scale apps, you'll start to compose a staircase of widgets. Widgets composed
+> of other wodgets can get really long and messy. It's a good idea to break your widgets into
+> separate files for readability.    
+
+> __Theme.of(context)__ returns the nearest Theme in the widget tree. If the widget has a defined
+> Theme, it return that. Otherwise, it returns the app's theme.  
+
+> __setState()__ notifies the framework that the state of the object has changed, then rebuilds the
+> widget internally.  
 
 
