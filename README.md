@@ -42,7 +42,11 @@ Flutter start with a widget -> runApp() takes the root Widget).
 > - Container
 > - SizedBox
 > - Padding
-  
+- *Display Widgets* -> handle what the user sees onscreen. Examples:
+> - Text
+> - Image
+> - Button
+
 - __MaterialApp__ is the predefined widget in Flutter (give a Material Design system look and feel)  
   > Among the most important attributes of Material there are:
   > 1. __title__ -> description that devices uses to identify the app - the UI won't display this.
