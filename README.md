@@ -47,12 +47,12 @@ Flutter start with a widget -> runApp() takes the root Widget).
 > - Image
 > - Button
 
-- __MaterialApp__ is the predefined widget in Flutter (give a Material Design system look and feel)  
+__MaterialApp__ is the predefined widget in Flutter (give a Material Design system look and feel)  
   > Among the most important attributes of Material there are:
   > 1. __title__ -> description that devices uses to identify the app - the UI won't display this.
   > 2. __theme__ -> determines visual aspects like colors and fonts.
   
-- __Scaffold__ widget provides the high-leve structure for a screen.  
+__Scaffold__ widget provides the high-leve structure for a screen.  
   > Among the most important attributes of Scaffold there are:
   > 1. __appBar__ -> gets a title property by using a Text widget.
   > 2. __body__
