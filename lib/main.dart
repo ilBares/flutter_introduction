@@ -1,13 +1,9 @@
 // required to use "standard" Widget (MaterialApp, Scaffold, Text, ...)
 import 'package:flutter/material.dart';
 import 'package:ripasso/home_stful.dart';
-
-<<<<<<< HEAD
 import 'home_stateful.dart';
 
-=======
 // required to launch the App
->>>>>>> b58171913babc4262fbbcc896c1d3c8075c24f08
 void main() => runApp(IntroductionApp());
 
 // Widget that contains every widget of My App
@@ -40,14 +36,8 @@ class IntroductionApp extends StatelessWidget {
             ),
           ),
         ),
-<<<<<<< HEAD
         // a body potremmo anche assegnare MyListView()
         body: HomeStateful(),
-
-=======
-        //
-        body: Home(),
->>>>>>> b58171913babc4262fbbcc896c1d3c8075c24f08
       ),
     );
   }
