@@ -1,16 +1,29 @@
+// required to use "standard" Widget (MaterialApp, Scaffold, Text, ...)
 import 'package:flutter/material.dart';
+import 'package:ripasso/home_stful.dart';
 
+<<<<<<< HEAD
 import 'home_stateful.dart';
 
+=======
+// required to launch the App
+>>>>>>> b58171913babc4262fbbcc896c1d3c8075c24f08
 void main() => runApp(IntroductionApp());
 
+// Widget that contains every widget of My App
 class IntroductionApp extends StatelessWidget {
   Color c = Colors.blue;
 
+  // required to "build" my application - entry point for composing together
+  // other widgets to make a new widget
   @override
   Widget build(BuildContext context) {
+
+    // predefined Widget in Flutter
     return MaterialApp(
       title: 'Title',
+
+      // Scaffold provides the high-leve structure for a screen (such as colors)
       home: Scaffold(
         backgroundColor: c,
         appBar: AppBar(
@@ -27,14 +40,20 @@ class IntroductionApp extends StatelessWidget {
             ),
           ),
         ),
+<<<<<<< HEAD
         // a body potremmo anche assegnare MyListView()
         body: HomeStateful(),
 
+=======
+        //
+        body: Home(),
+>>>>>>> b58171913babc4262fbbcc896c1d3c8075c24f08
       ),
     );
   }
 }
 
+// custom Widget not used - usable instead of "MyListView()" - row 34
 class MyBody extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -104,6 +123,7 @@ class MyBody extends StatelessWidget {
 
 }
 
+// custom Widget used as body of Scaffold - row 34
 class MyListView extends StatelessWidget {
   final _itemCount = 15;
 
