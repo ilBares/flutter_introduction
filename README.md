@@ -9,6 +9,11 @@ Flutter is _not_ a language -> Flutter uses *Dart* as its programming language (
 Flutter's widgets exist parallel to native widgets due to its customer user interface rendering
 engine - *Skia* - ensuring native performance.  
 *IDE* (Integrated Development Environment): XCode for iOS and Android Studio for Android.  
+
+The Flutter architecture consists of three main layers:  
+ > 1. The Framework layer is written in Dart and contains the high-level libraries that you’ll use directly to build apps. This includes the UI theme, widgets, layout and animations, gestures and foundational building blocks. Alongside the main Flutter framework are plugins: high-level features like JSON serialization, geolocation, camera access, in-app payments and so on. This plugin-based architecture lets you include only the features your app needs.
+ > 2. The Engine layer contains the core C++ libraries that make up the primitives that support Flutter apps. The engine implements the low-level primitives of the Flutter API, such as I/O, graphics, text layout, accessibility, the plugin architecture and the Dart runtime. The engine is also responsible for rasterizing Flutter scenes for fast rendering onscreen.
+ > 3. The Embedder is different for each target platform and handles packaging the code as a stand-alone app or embedded module.
   
 In Flutter almost everything that makes up the user interface is a Widget.  
 There are two main types of Widget:  

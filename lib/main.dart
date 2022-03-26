@@ -1,14 +1,18 @@
 import 'package:flutter/material.dart';
 
+import 'home_stateful.dart';
+
 void main() => runApp(IntroductionApp());
 
 class IntroductionApp extends StatelessWidget {
+  Color c = Colors.blue;
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Title',
       home: Scaffold(
+        backgroundColor: c,
         appBar: AppBar(
           backgroundColor: Colors.white38,
           title: Align(
@@ -24,7 +28,8 @@ class IntroductionApp extends StatelessWidget {
           ),
         ),
         // a body potremmo anche assegnare MyListView()
-        body: MyListView(),
+        body: HomeStateful(),
+
       ),
     );
   }
@@ -116,7 +121,6 @@ class MyListView extends StatelessWidget {
     return Card(
       margin: EdgeInsets.symmetric(vertical: 5, horizontal: 10),
       child: Container(
-        padding: EdgeInsets.all(2.0),
         child: Row(
           children: [
             Expanded(
