@@ -34,7 +34,7 @@ class IntroductionApp extends StatelessWidget {
           ),
         ),
         //
-        body: Home(),
+        body: MyBody(),
       ),
     );
   }
@@ -48,14 +48,14 @@ class MyBody extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: [
         Column(
-          crossAxisAlignment: CrossAxisAlignment.end,
-          mainAxisAlignment: MainAxisAlignment.end,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          mainAxisAlignment: MainAxisAlignment.start,
           children: <Widget>[
             Text(
               'Sono nel Body',
               style: TextStyle(
                 color: Colors.blue,
-                fontSize: 25,
+                fontSize: 20,
                 fontWeight: FontWeight.bold,
               ),
             ),
@@ -63,7 +63,7 @@ class MyBody extends StatelessWidget {
               'Sono il secondo Text',
               style: TextStyle(
                 color: Colors.black38,
-                fontSize: 20,
+                fontSize: 15,
                 fontStyle: FontStyle.italic,
               ),
             ),
@@ -83,7 +83,7 @@ class MyBody extends StatelessWidget {
               'Sono nel Body',
               style: TextStyle(
                 color: Colors.blue,
-                fontSize: 25,
+                fontSize: 20,
                 fontWeight: FontWeight.bold,
               ),
             ),
@@ -91,7 +91,7 @@ class MyBody extends StatelessWidget {
               'Sono il secondo Text',
               style: TextStyle(
                 color: Colors.black38,
-                fontSize: 20,
+                fontSize: 15,
                 fontStyle: FontStyle.italic,
               ),
             ),
