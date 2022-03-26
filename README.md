@@ -28,7 +28,7 @@ In Flutter almost everything that makes up the user interface is a Widget.
 There are two main types of Widget:  
 ->  __StatelessWidget__: (*"Widget without state"*)  
 > a Stateless Widget doesn't change after you build it.   
-'''
+```
 class MyStlessWidget extends StatelessWidget {
   const MyStlessWidget({Key? key}) : super(key: key);
   @override
@@ -36,11 +36,11 @@ class MyStlessWidget extends StatelessWidget {
     return Container();
   }
 }
-'''
+```
 
 ->  __StatefulWidget__: (*"Widget with state"*)  
 > a Stateful widget change his state during the lifetime of the Widget.  
-'''
+```
 class MyStfulWidget extends StatefulWidget {
   const MyStfulWidget({Key? key}) : super(key: key);
   @override
@@ -52,7 +52,7 @@ class _MyStfulWidgetState extends State<MyStfulWidget> {
     return Container();
   }
 }
-'''
+```
 
 __main()__ is the entry point for the code when the app launches.  
 __runApp()__ main method that tells Flutter which is the top-level widget for the app (everything in
