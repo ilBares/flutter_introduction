@@ -1,4 +1,4 @@
-## Welcome to Flutter Introduction
+# Welcome to Flutter Introduction
 
 Flutter is a software development toolkit (SDK) from Google for building cross-platform apps.  
 Flutter is _not_ a language -> Flutter uses *Dart* as its programming language (object-oriented).  
