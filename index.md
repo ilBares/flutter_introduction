@@ -4,17 +4,17 @@ Welcome to Flutter Introduction
 
 Flutter is a free and open-source software development toolkit (SDK) from Google for building cross-platform apps, released in May 2017. 
 Flutter consists of two important parts:  
-1) An **SDK** (Software Development Kit): A collection of tools that are going to help you develop your applications. This includes tools to compile your code into native machine code (code for iOS, Android, Windows, Linux, Web and MacOS).
+1) An **SDK** (Software Development Kit): A collection of tools that are going to help you develop your applications. This includes tools to compile your code into native machine code (code for iOS, Android, Windows, Linux, Web and MacOS).  
 2) A **Framework** (UI Library based on widgets): A collection of reusable UI elements (buttons, text inputs, sliders, and so on) that you can personalize for your own needs.  
 
 -------------------------------
-##Ideal for startup MVPs##
+##Ideal for startup MVPs
 Flutter is ideal also for Minimum Viable Product (MVP) for 4 reason:
 
-1) It’s cheaper to develop a mobile application with Flutter because you don’t need to create and maintain two mobile apps (one for iOS and one for Android).
-2) One developer is all you need to create your MVP.
-3) It’s performant – you won't notice the difference between a native application and a Flutter app.
-4) It’s beautiful – you can easily use widgets provided by Flutter and personalize it to create a valuable UI for your customers (you can find examples of applications made with Flutter below).
+1) It’s cheaper to develop a mobile application with Flutter because you don’t need to create and maintain two mobile apps (one for iOS and one for Android).  
+2) One developer is all you need to create your MVP.  
+3) It’s performant – you won't notice the difference between a native application and a Flutter app.  
+4) It’s beautiful – you can easily use widgets provided by Flutter and personalize it to create a valuable UI for your customers (you can find examples of applications made with Flutter below).  
 
 
 Flutter is _not_ a language -> Flutter uses *Dart* as its programming language (object-oriented).  
