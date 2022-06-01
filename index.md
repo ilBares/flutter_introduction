@@ -1,6 +1,13 @@
-# Welcome to Flutter Introduction
+Welcome to Flutter Introduction
+===============================
+-------------------------------
 
-Flutter is a software development toolkit (SDK) from Google for building cross-platform apps.  
+Flutter is a free and open-source software development toolkit (SDK) from Google for building cross-platform apps, released in May 2017. 
+Flutter consists of two important parts:  
+1) An SDK (Software Development Kit): A collection of tools that are going to help you develop your applications. This includes tools to compile your code into native machine code (code for iOS, Android, Windows, Linux, Web and MacOS).
+2) A Framework (UI Library based on widgets): A collection of reusable UI elements (buttons, text inputs, sliders, and so on) that you can personalize for your own needs.
+
+
 Flutter is _not_ a language -> Flutter uses *Dart* as its programming language (object-oriented).  
 Flutter's widgets exist parallel to native widgets due to its customer user interface rendering
 engine - *Skia* - ensuring native performance.  
