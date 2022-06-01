@@ -8,7 +8,7 @@ Flutter consists of two important parts:
 2) A **Framework** (UI Library based on widgets): A collection of reusable UI elements (buttons, text inputs, sliders, and so on) that you can personalize for your own needs.  
 
 -------------------------------
-##Ideal for startup MVPs
+## Ideal for startup MVPs
 Flutter is ideal also for Minimum Viable Product (MVP) for 4 reason:
 
 1) It’s cheaper to develop a mobile application with Flutter because you don’t need to create and maintain two mobile apps (one for iOS and one for Android).  
@@ -52,15 +52,11 @@ Most important widgets:
   > 1. __AppBar__ -> gets a title property by using a Text widget.
   > 2. __body__
 
-- __Text__ ...
-- __SafeArea__ ...
-- __Image__ ...
-- __ListView__ ...
-- __SizedBox__ black view with a fixed size.
-- __Card__ Widget defines an area of UI where you've laid out related information about a specific 
-  entity.
-  > Among the most important attributes of Scaffold there are:
-  > 1. __elevation__ -> determines how high off the screen the cars is (shadow changes).
-  > 2. __shape__ -> handles the shape of the card.
+- __Text__  
+- __SafeArea__  
+- __Image__  
+- __ListView__  
+- __SizedBox__  
+- __Card__  
   
   > data model -> refers to classes - such as Car or Student
