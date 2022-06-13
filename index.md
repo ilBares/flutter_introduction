@@ -38,13 +38,13 @@ __runApp()__ main method that tells Flutter which is the top-level widget for th
 - a Widget's __build()__ method is the entry point for composing together other widgets to make a
   new widget.
 
-Most important widgets:  
-- __MaterialApp__ is the predefined widget in Flutter  
+## Examples of widgets  
+__MaterialApp__ is the predefined widget in Flutter  
   > Among the most important attributes of Material there are:
   > 1. __title__ -> description that devices uses to identify the app - the UI won't dispay this.
   > 2. __theme__ -> determines visual aspects like colors and fonts.
   
-- __Scaffold__ widget provides the high-leve structure for a screen.  
+__Scaffold__ widget provides the high-leve structure for a screen.  
   > Among the most important attributes of Scaffold there are:
   > 1. __AppBar__ -> gets a title property by using a Text widget.
   > 2. __body__
