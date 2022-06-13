@@ -25,6 +25,15 @@ Skia is the graphic library that server ad the graphic engine for major browsers
 
 Flutter's rendering process is basically turning widgets into pixels. This is the job of Flutter's multi rendering pipeline. Flutter handles the input, runs animation, builds the widget tree, lays out the render objects, paint the render objects, and compiles everything into a single image. Whenever a part of the widget tree receives user input, animation, or any other changes, Flutter enters the build phase. In this phase, the framework reconstructs the widget tree by calling the necessary build methods.  
 
+### Strengths of Flutter
+1. **Open Source Platform**: it's an open source platform which makes it available for use and study by start-ups for any given purpose.
+2. **Custom Design and Navigation**: it redraws a UI every time a view changes which provides a quick and smooth app development experience.
+3. **Quick testing and Hot reload**: with Flutter, you do not have to refresh the application to see the changes you made in the codebase.
+4. **Ti and cost-effective**: with its single codebase programming feature for both android as well as iOS, it saves a lot of time for developers and makes it super friendly.
+5. **Imessive and customized widgets**: developers are given major control over how they want the layout of their application to be and develop a successful application in less time.
+6. **Dart language**: flutter usese dart language which is one of the simplest programming languages with extraordinary speed and performance.
+7. **Object Orientation**: 
+
 There are two main types of Widget:  
 ->  __StatelessWidget__: (*"Widget without state"*)  
 > a Stateless Widget doesn't change after you build it.  
@@ -38,7 +47,7 @@ __runApp()__ main method that tells Flutter which is the top-level widget for th
 - a Widget's __build()__ method is the entry point for composing together other widgets to make a
   new widget.
 
-## Examples of widgets  
+### Examples of widgets  
 __MaterialApp__ is the predefined widget in Flutter  
   > Among the most important attributes of Material there are:
   > 1. __title__ -> description that devices uses to identify the app - the UI won't dispay this.
