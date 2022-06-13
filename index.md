@@ -49,11 +49,4 @@ Most important widgets:
   > 1. __AppBar__ -> gets a title property by using a Text widget.
   > 2. __body__
 
-- __Text__  
-- __SafeArea__  
-- __Image__  
-- __ListView__  
-- __SizedBox__  
-- __Card__  
-  
   > data model -> refers to classes - such as Car or Student
