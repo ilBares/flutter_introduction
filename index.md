@@ -25,9 +25,14 @@ engine - *Skia* - ensuring native performance.
 The Flutter architecture consists of three main layers:  
  > 1. The Framework layer is written in Dart and contains the high-level libraries that you’ll use directly to build apps. This includes the UI theme, widgets, layout and animations, gestures and foundational building blocks. Alongside the main Flutter framework are plugins: high-level features like JSON serialization, geolocation, camera access, in-app payments and so on. This plugin-based architecture lets you include only the features your app needs.
  > 2. The Engine layer contains the core C++ libraries that make up the primitives that support Flutter apps. The engine implements the low-level primitives of the Flutter API, such as I/O, graphics, text layout, accessibility, the plugin architecture and the Dart runtime. The engine is also responsible for rasterizing Flutter scenes for fast rendering onscreen.
- > 3. The Embedder is different for each target platform and handles packaging the code as a stand-alone app or embedded module.
+ > 3. The Embedder is different for each target platform and handles packaging the code as a stand-alone app or embedded module. It is the start point of Flutter application when launched. Embedder enables communication with the underlying operating system, obtains threads for UI, and provides texture. The respoonsibilities of the embedder are lifecycle management, input gestures, windows gestures, windows sizing and platform messages.
 
-In Flutter almost everything that makes up the user interface is a Widget.  
+In Flutter almost everything that makes up the user interface is a Widget. A widget is simply an instruction that you place within your code and and they are the basic building blocks of a Flutter application's UI. When a widget's state changes, it rebuilds its description, which the framework compares to the previous description to see what changes in the underlying render tree to transition from one state to the next. A widget can be in the form of a button, an image, an icon, or a layout, and placing the widgets together creates a widget tree.  
+There are plenty of Flutter widgets available that can be customized to give a native-like feel to the application. Widgets make use of advanced animations and gesture recognition and render it to Skia canvas.  
+Skia is the graphic library that server ad the graphic engine for major browsers like Chrome and Firefox, and platforms like Android, ChromeOS and Flutter.
+
+Flutter's rendering process is basically turning widgets into pixels. This is the job of Flutter's multi rendering pipeline. Flutter handles the input, runs animation, builds the widget tree, lays out the render objects, paint the render objects, and compiles everything into a single image. Whenever a part of the widget tree receives user input, animation, or any other changes, Flutter enters the build phase. In this phase, the framework reconstructs the widget tree by calling the necessary build methods.  
+
 There are two main types of Widget:  
 ->  __StatelessWidget__: (*"Widget without state"*)  
 > a Stateless Widget doesn't change after you build it.  
