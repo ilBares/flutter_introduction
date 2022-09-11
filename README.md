@@ -122,3 +122,9 @@ __Scaffold__ widget provides the high-leve structure for a screen.
 > widget internally.  
 
 
+FLutter does NOT use Platform Primitives.  
+Flutter directly controls every point which is drawn. 
+
+Material is a Design System created by Google.  
+
+All the Flutter Code is compiled (React is partly compiled).
