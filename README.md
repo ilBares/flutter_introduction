@@ -127,4 +127,24 @@ Flutter directly controls every point which is drawn.
 
 Material is a Design System created by Google.  
 
-All the Flutter Code is compiled (React is partly compiled).
+All the Flutter Code is compiled (React is partly compiled).  
+
+To load pubspec.yaml packages run:
+> "flutter packages get"  
+
+# Folder DESCRIPTION
+> ".idea" folder holds some configurations for Android Studio.
+> "android" holds a completely Android project (passive folder for the most time).
+> "build" folder holds the output of the Flutter applications (nothing to change in there).
+> "ios" folder holds a completely IOs project (passive folder for the most time).
+> "lib" folder is the one where we will write code.
+> "test" allows us to test our code.
+> ".gitignore" helps when you are using git.
+> ".metadata"
+> ".packages" (packages and dependencies automaticaly genered by the SDK).
+> ".iml"
+> "pubspeck.yaml" file that allows you to manage dependencies (config file).
+> "pubspeck.lock"
+
+#GIT
+https://academind.com/tutorials/git-the-basics 
