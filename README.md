@@ -148,3 +148,7 @@ To load pubspec.yaml packages run:
 
 #GIT
 https://academind.com/tutorials/git-the-basics 
+
+#Dart
+>Property: variable inside a class
+>When you initialize immediately a variable you should use "var" instead of specific type.
