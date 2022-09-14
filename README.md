@@ -152,3 +152,8 @@ https://academind.com/tutorials/git-the-basics
 #Dart
 >Property: variable inside a class
 >When you initialize immediately a variable you should use "var" instead of specific type.
+
+#FUNCTIONS
+>passing a function: "functionName" (without parentesis, or it will be executed - in that way you pass a pointer to the function)
+>anonymous function: () {}
+>immediately executed anonymous function: () {} ()
