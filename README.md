@@ -27,7 +27,7 @@ The Flutter architecture consists of three main layers:
 In Flutter almost everything that makes up the user interface is a Widget.  
 There are two main types of Widget:  
 ->  __StatelessWidget__: (*"Widget without state"*)  
-> a Stateless Widget doesn't change after you build it.   
+> a Stateless Widget doesn't change after you build it. Data can only change externally (with input data).   
 ```dart
 class MyStlessWidget extends StatelessWidget {
   const MyStlessWidget({Key? key}) : super(key: key);
@@ -39,7 +39,7 @@ class MyStlessWidget extends StatelessWidget {
 ```
 
 ->  __StatefulWidget__: (*"Widget with state"*)  
-> a Stateful widget change his state during the lifetime of the Widget.  
+> a Stateful widget change his state during the lifetime of the Widget. Data can change also internally.  
 ```dart
 class MyStfulWidget extends StatefulWidget {
   const MyStfulWidget({Key? key}) : super(key: key);
