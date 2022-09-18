@@ -146,14 +146,14 @@ To load pubspec.yaml packages run:
 > "pubspeck.yaml" file that allows you to manage dependencies (config file).
 > "pubspeck.lock"
 
-#GIT
+# GIT
 https://academind.com/tutorials/git-the-basics 
 
-#Dart
+# Dart
 >Property: variable inside a class
 >When you initialize immediately a variable you should use "var" instead of specific type.
 
-#FUNCTIONS
+# FUNCTIONS
 >passing a function: "functionName" (without parentesis, or it will be executed - in that way you pass a pointer to the function)
 >anonymous function: () {}
 >immediately executed anonymous function: () {} ()
@@ -165,3 +165,7 @@ https://academind.com/tutorials/git-the-basics
             }).toList(),
 ```
 "..." separates the list into single elements (so you can use it as a List of Widgets in Column, Row, ...)
+
+### Final and Const
+> __final__ : runtime constant, you have to use it when the values does not change but you don't know what the final value would be while writing the code (it depends, for example, by the instance).
+> __const__ : compile time constant
