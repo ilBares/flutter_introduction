@@ -167,5 +167,5 @@ https://academind.com/tutorials/git-the-basics
 "..." separates the list into single elements (so you can use it as a List of Widgets in Column, Row, ...)
 
 ### Final and Const
->__final__ : runtime constant, you have to use it when the values does not change but you don't know what the final value would be while writing the code (it depends, for example, by the instance).
->__const__ : compile time constant
+> __final__ : runtime constant, you have to use it when the values does not change but you don't know what the final value would be while writing the code (it depends, for example, by the instance).  
+> __const__ : compile time constant
