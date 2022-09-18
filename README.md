@@ -157,3 +157,11 @@ https://academind.com/tutorials/git-the-basics
 >passing a function: "functionName" (without parentesis, or it will be executed - in that way you pass a pointer to the function)
 >anonymous function: () {}
 >immediately executed anonymous function: () {} ()
+
+```dart
+...(questions[_questionIndex]['answers'] as List<String>)
+                .map((answer) {
+              return Answer(_answerQuestion, answer);
+            }).toList(),
+```
+"..." separates the list into single elements (so you can use it as a List of Widgets in Column, Row, ...)
