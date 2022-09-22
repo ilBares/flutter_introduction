@@ -1,3 +1,6 @@
+#Build settings
+theme: cayman
+
 # Flutter Introduction
 
 SDK Flutter Introduction.
